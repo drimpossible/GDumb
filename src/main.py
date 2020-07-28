@@ -129,7 +129,7 @@ if __name__ == '__main__':
         if opt.inp_size ==224: model = getattr(imagenet, opt.model)(opt)      
         if not os.path.isfile(opt.log_dir+opt.old_exp_name+'/pretrained_model.pth.tar'):
             console_logger.debug("==> Starting pre-training..") 
-            _, model = experiment(opt=opt, class_mask=torch.ones(opt.num_classes,opt.num_classes), train_loader=dobj.pretrain_loader, \
+            _, model = experiment(opt=opt, class_mask=torch.ones(opt.num_classes,opt.num_classes).cuda(), train_loader=dobj.pretrain_loader, \
                                     test_loader=dobj.pretest_loader, model=model, logger=console_logger, num_passes=opt.num_pretrain_passes)
             save_model(opt, model) # Saves the pretrained model. Subsequent CL experiments directly load the pretrained model.
         else:

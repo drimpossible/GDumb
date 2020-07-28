@@ -76,7 +76,7 @@ class VisionDataset(object):
             num_memory_samples = min(len(train_class_labels_dict[cl][:]), mem_per_cls)
             trainidx += train_class_labels_dict[cl][:num_memory_samples] # This is class-balanced greedy sampling (Selects the first n samples).
             testidx += test_class_labels_dict[cl][:]
-        assert(trainidx <= self.opt.memory_size), "ERROR: Cannot exceed max. memory samples!"
+        assert(len(trainidx) <= self.opt.memory_size), "ERROR: Cannot exceed max. memory samples!"
         self.cltrain_loader = self.get_loader(indices=trainidx, transforms=self.train_transforms, train=True, target_transforms=continual_target_transform)
         self.cltest_loader = self.get_loader(indices=testidx, transforms=self.test_transforms, train=False, target_transforms=continual_target_transform)
 

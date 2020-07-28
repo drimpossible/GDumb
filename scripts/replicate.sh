@@ -19,4 +19,4 @@ python main.py --dataset CIFAR100 --num_classes_per_task 5 --num_tasks 20 --seed
 
 # TinyImagenet: Full Benchmark (Formulation C2)
 python main.py --dataset TinyImagenet --num_classes_per_task 20 --num_tasks 10 --seed $SEED --memory_size 4500 --num_passes 128 --regularization cutmix --model DenseNet --depth 100 --width 12  --exp_name TinyImagenet_DenseNetBC-100-12_M4500_t20_nc10_128epochs_cutmix_seed$SEED
-python main.py --dataset TinyImagenet --num_classes_per_task 20 --num_tasks 10 --seed $SEED --memory_size 9000 --num_passes 128 --regularization cutmix --model DenseNet --depth 100 --width 12  --exp_name TinyImagenet_DenseNetBC-100-12_M9000_t20_nc10_128epochs_cutmix_seed$SEED
+python main.py --dataset TinyImagenet --num_classes_per_task 20 --num_tasks 10 --seed $SEED --memory_size 9000 --num_passes 64 --regularization cutmix --model DenseNet --depth 100 --width 12  --exp_name TinyImagenet_DenseNetBC-100-12_M9000_t20_nc10_64epochs_cutmix_seed$SEED

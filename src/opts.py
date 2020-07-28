@@ -3,7 +3,7 @@ import argparse
 def parse_args():
     parser = argparse.ArgumentParser(description='main.py')
     # Changing options -- Apart from these arguments, we do not mess with other arguments
-    parser.add_argument('--data_dir', type=str, default='../data/', help='Directory where all datasets are stored')
+    parser.add_argument('--data_dir', type=str, default='/media/anarchicorganizer/Qiqi/', help='Directory where all datasets are stored')
     parser.add_argument('--log_dir', type=str, default='../logs/', help='Directory where all logs are stored')
     parser.add_argument('--dataset', type=str, required=True, help='Name of dataset', choices=['MNIST', 'CIFAR10', 'CIFAR100', 'SVHN', 'TinyImagenet', 'ImageNet100', 'ImageNet'])
     parser.add_argument('--num_classes_per_task', type=int, required=True, help='Number of classes per task')
