@@ -6,8 +6,8 @@ This repository contains simplified code for the paper:
 [Ameya Prabhu](https://drimpossible.github.io), [Philip Torr](https://www.robots.ox.ac.uk/~phst/), [Puneet Dokania](https://puneetkdokania.github.io)
 
 [[Arxiv](https://arxiv.org/abs/)]
-[[PDF](https://drimpossible.github.io/.pdf)]
-[[Slides]()]
+[[PDF](https://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf)]
+[[Slides](https://github.com/drimpossible/drimpossible.github.io/blob/master/documents/gdumb_slides.pdf)]
 [[Bibtex](https://github.com/drimpossible/GDumb/#citation)]
 
 <a href="url"><img src="https://github.com/drimpossible/GDumb/blob/master/Model.png" height="300" width="381" ></a>
@@ -83,7 +83,7 @@ We hope GDumb is a strong baseline and comparison, and the sampler or masking in
 
 ```
 @inproceedings{prabhu2020greedy,
-  title={Greedy Sampler and Dumb Learner A Surprisingly Effective Approach for Continual Learning},
+  title={GDumb: A Simple Approach that Questions Our Progress in Continual Learning},
   author={Prabhu, Ameya and Torr, Philip and Dokania, Puneet},
   booktitle={The European Conference on Computer Vision (ECCV)},
   month={August},
