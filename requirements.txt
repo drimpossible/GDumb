@@ -1,6 +1,6 @@
 future==0.18.2
 numpy==1.18.4
-Pillow==7.1.2
+Pillow==8.1.1
 pkg-resources==0.0.0
 torch==1.5.0
 torchsummary==1.5.1
