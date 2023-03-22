@@ -5,7 +5,6 @@ This repository contains simplified code for the paper:
 **GDumb: A Simple Approach that Questions Our Progress in Continual Learning, ECCV 2020 (Oral: Top 2%)**  
 [Ameya Prabhu](https://drimpossible.github.io), [Philip Torr](https://www.robots.ox.ac.uk/~phst/), [Puneet Dokania](https://puneetkdokania.github.io)
 
-[[Arxiv](https://arxiv.org/abs/)]
 [[PDF](https://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf)]
 [[Slides](https://github.com/drimpossible/drimpossible.github.io/blob/master/documents/gdumb_slides.pdf)]
 [[Bibtex](https://github.com/drimpossible/GDumb/#citation)]
