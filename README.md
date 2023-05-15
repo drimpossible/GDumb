@@ -21,7 +21,7 @@ $ pip3 install -r requirements.txt
  
 * Create two additional folders in the repository `data/` and `logs/` which will store the datasets and logs of experiments. Point `--data_dir` and `--log_dir` in `src/opts.py` to locations of these folders.
 
- * Select `Imagenet100` from Imagenet using [this link](https://github.com/wuyuebupt/LargeScaleIncrementalLearning/tree/master/dataImageNet100) and TinyImagenet from [this link](https://tiny-imagenet.herokuapp.com/) and convert them to `ImageFolder` format with `train` and `test` splits.  
+ * Select `Imagenet100` from Imagenet using [this link](https://github.com/wuyuebupt/LargeScaleIncrementalLearning/tree/master/dataImageNet100) and TinyImagenet from [this link](https://www.kaggle.com/competitions/tiny-imagenet/data) and convert them to `ImageFolder` format with `train` and `test` splits.  
  
 ## Usage
 
