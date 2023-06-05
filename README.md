@@ -9,7 +9,9 @@ This repository contains simplified code for the paper:
 [[Slides](https://github.com/drimpossible/drimpossible.github.io/blob/master/documents/gdumb_slides.pdf)]
 [[Bibtex](https://github.com/drimpossible/GDumb/#citation)]
 
+<p align="center">
 <a href="url"><img src="https://github.com/drimpossible/GDumb/blob/master/Model.png" height="300" width="381" ></a>
+</p>
 
 ## Installation and Dependencies
 
