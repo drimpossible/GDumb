@@ -5,7 +5,6 @@ This repository contains simplified code for the paper:
 **GDumb: A Simple Approach that Questions Our Progress in Continual Learning, ECCV 2020 (Oral: Top 2%)**  
 [Ameya Prabhu](https://drimpossible.github.io), [Philip Torr](https://www.robots.ox.ac.uk/~phst/), [Puneet Dokania](https://puneetkdokania.github.io)
 
-[[Arxiv](https://arxiv.org/abs/)]
 [[PDF](https://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf)]
 [[Slides](https://github.com/drimpossible/drimpossible.github.io/blob/master/documents/gdumb_slides.pdf)]
 [[Bibtex](https://github.com/drimpossible/GDumb/#citation)]
@@ -22,7 +21,7 @@ $ pip3 install -r requirements.txt
  
 * Create two additional folders in the repository `data/` and `logs/` which will store the datasets and logs of experiments. Point `--data_dir` and `--log_dir` in `src/opts.py` to locations of these folders.
 
- * Select `Imagenet100` from Imagenet using [this link](https://github.com/wuyuebupt/LargeScaleIncrementalLearning/tree/master/dataImageNet100) and TinyImagenet from [this link](https://tiny-imagenet.herokuapp.com/) and convert them to `ImageFolder` format with `train` and `test` splits.  
+ * Select `Imagenet100` from Imagenet using [this link](https://github.com/wuyuebupt/LargeScaleIncrementalLearning/tree/master/dataImageNet100) and TinyImagenet from [this link](https://www.kaggle.com/competitions/tiny-imagenet/data) and convert them to `ImageFolder` format with `train` and `test` splits.  
  
 ## Usage
 
